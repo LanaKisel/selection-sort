@@ -1,5 +1,8 @@
+function compareNumbers(a,b){
+  return a-b
+}
 function selectionSort(arr) {
-  // type your code here
+  return arr.sort(compareNumbers)
 }
 
 if (require.main === module) {
